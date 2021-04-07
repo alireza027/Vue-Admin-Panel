@@ -1,0 +1,107 @@
+* {
+  font-family: "BYekan";
+}
+
+html {
+  overflow: hidden !important;
+
+  .add-padding-right {
+    padding-right: 28px;
+  }
+
+  .add-padding-left {
+    padding-left: 28px;
+  }
+
+  .active-when-click {
+    background: rgba(255, 255, 255, 0.2) !important;
+  }
+
+  .v-list-group--active .v-list-item--active {
+    background: rgba(255, 255, 255, 0.25);
+  }
+
+  .v-list-item--active > .v-list-group__items > .v-list-item--active {
+    background: rgba(255, 255, 255, 0.25);
+  }
+
+  .row-width-100 {
+    width: 355px;
+  }
+
+  body {
+    position: relative;
+
+    .pos-fix {
+      position: fixed !important;
+      top: 0;
+      right: 0;
+      z-index: 1000;
+      display: block;
+      width: 100%;
+      background: transparent;
+      display: flex;
+
+      .pos-fix-img {
+        margin-left: 0 !important;
+      }
+
+      .pos-fix-title {
+        font-family: "PT Sans Narrow", sans-serif;
+        font-weight: bolder;
+        margin-top: 4px;
+        margin-right: 15px;
+        font-size: 20px;
+      }
+    }
+
+    .just-content {
+      // margin-top: 56px;
+      top: 0;
+    }
+
+    .v-navigation-drawer__content::-webkit-scrollbar {
+      width: 0px;
+    }
+
+    .icons-white .v-icon {
+      color: #fff !important;
+    }
+
+    .active-group .v-icon {
+      color: #fff;
+    }
+
+    .v-navigation-drawer--mini-variant
+      .v-list-group--no-action
+      .v-list-group__items,
+    .v-navigation-drawer--mini-variant .v-list-group--sub-group {
+      display: flex;
+      margin-right: -15px;
+    }
+
+    .v-navigation-drawer--mini-variant .pos-fix-img .v-image {
+      margin-right: -6px !important;
+    }
+
+    .v-navigation-drawer--mini-variant .add-padding-right {
+      padding-right: 15px;
+    }
+
+    .v-navigation-drawer--mini-variant .add-padding-left {
+      padding-left: 15px;
+    }
+
+    .sub-menu-group-item .v-icon {
+      margin-right: 20px;
+    }
+
+    .v-navigation-drawer--mini-variant .sub-menu-group-item .v-icon {
+      margin-right: -8px;
+    }
+
+    .v-navigation-drawer--mini-variant .main-menu-item .v-icon {
+      margin-right: 0px;
+    }
+  }
+}
